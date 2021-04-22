@@ -7,9 +7,22 @@
     <script src="app.js"></script>
   </head>
   <body>
+
+    <div>
+      <div data-shaka-player-container>
+          <video data-shaka-player id="video"></video>
+      </div>
+  
+      <button onclick="shakaPlay();">Play</button>
+      <button onclick="shakaPause();">Pause</button>
+      <button onclick="shakaSeek();">Seek</button>
+  </div>
+
+
     <video id="video"
            width="640"
            poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
-           controls autoplay></video>
-  </body>
+           autoplay></video>
+           <!-- controls -->
+          </body>
 </html>

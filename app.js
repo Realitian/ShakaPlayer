@@ -1,5 +1,9 @@
-const manifestUri =
-    'https://vusr.wemersive.com/arctic/dash.mpd';
+const streams = [
+  'https://vusr.wemersive.com/arctic/dash.mpd',
+  'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd'
+];
+
+const manifestUri = streams[1];
 
 function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.
@@ -49,3 +53,18 @@ function onError(error) {
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
+  
+function shakaPlay() {
+  const video = document.getElementById('video');
+  video.play();
+}
+
+function shakaPause() {
+  const video = document.getElementById('video');
+  video.pause();
+}
+
+function shakaSeek() {
+  const video = document.getElementById('video');
+  video.currentTime = 5
+}
