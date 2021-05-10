@@ -1,5 +1,5 @@
 const streams = [
-  'https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8',
+  'https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8',
   'https://vusr.wemersive.com/arctic/dash.mpd',
   'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd'
 ];
