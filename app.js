@@ -1,10 +1,11 @@
 const streams = [
   'https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8',
+  'https://vusr.wemersive.com/arctic/hls.m3u8',
   'https://vusr.wemersive.com/arctic/dash.mpd',
   'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd'
 ];
 
-const manifestUri = streams[0];
+const manifestUri = streams[1];
 
 function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.
