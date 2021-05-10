@@ -1,9 +1,10 @@
 const streams = [
+  'http://sample.vodobox.com/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8',
   'https://vusr.wemersive.com/arctic/dash.mpd',
   'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd'
 ];
 
-const manifestUri = streams[1];
+const manifestUri = streams[0];
 
 function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.
